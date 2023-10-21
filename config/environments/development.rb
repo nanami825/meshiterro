@@ -1,5 +1,4 @@
 require "active_support/core_ext/integer/time"
-config.active_job.queue_adapter = :inline
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
@@ -74,4 +73,5 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
+  config.active_job.queue_adapter = :inline
 end
