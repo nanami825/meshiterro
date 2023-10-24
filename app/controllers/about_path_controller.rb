@@ -1,0 +1,2 @@
+class AboutPathController < ApplicationController
+end
